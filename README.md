@@ -1,2 +1,0 @@
-# defaulthtml
-Default html template
