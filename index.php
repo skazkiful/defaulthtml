@@ -12,4 +12,11 @@
     </body>
     <script src="http://yastatic.net/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $('a[href^="#"]').click(function(){
+            var target = $(this).attr('href');
+            $('html, body').animate({scrollTop: $(target).offset().top}, 800);
+            return false;
+        });    
+    </script>
 </html>
